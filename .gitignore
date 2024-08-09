@@ -1,0 +1,8 @@
+venv
+
+*.todo
+
+docker.sh
+
+
+__pycache__

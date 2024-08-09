@@ -1,0 +1,6 @@
+*.terraform
+.terraform.lock.hcl
+dev.tfvars
+*plan
+plan*
+*.pem

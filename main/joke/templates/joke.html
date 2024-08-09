@@ -1,0 +1,16 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text"><strong>Question:</strong> {{joke.setup}}</p>
+                    <hr>
+                    <p class="card-text"><strong>Answer:</strong> <span>{{joke.delivery}} </span></p>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <button hx-trigger="click" hx-get="/joke" hx-target="#joke-div" type="button" class="btn btn-primary">another</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

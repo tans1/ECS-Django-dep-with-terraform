@@ -1,0 +1,26 @@
+version : "3.9"
+services:
+  django : 
+    build:
+      context: ./main
+      dockerfile : Dockerfile
+    command : ["uwsgi","--ini","uwsgi.ini"]
+    volumes:
+      - uwsgi_data:/tmp/uwsgi/
+
+  
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    command: ["nginx", "-g", "daemon off;"] 
+    depends_on: 
+      - django
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - uwsgi_data:/tmp/uwsgi/
+    
+volumes:
+  uwsgi_data:
