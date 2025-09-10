@@ -40,8 +40,3 @@ we can leave it out, but I just used it 😄
 ## ! Feedback, Comment, Suggestion ...
 please feel free to give any thought or suggestion => [https://anonfeedback.vercel.app/feedback/becaa6cd-0154-4363-ad42-b6629951020b](https://anonfeedback.vercel.app/feedback/becaa6cd-0154-4363-ad42-b6629951020b)
 
-- **no login**
-- **no signup**
-- **just a text box,**
-
-### => It is not finished yet, I will finalize it when I get enough time and coffee !!
